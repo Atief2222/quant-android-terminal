@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.quant.terminal">
+    xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Izin Akses Jaringan & Server -->
     <uses-permission android:name="android.permission.INTERNET" />
@@ -12,7 +11,6 @@
 
     <!-- Izin Layanan Background & Foreground Service -->
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
 
@@ -29,7 +27,7 @@
         android:usesCleartextTraffic="true"
         android:theme="@style/Theme.QuantTerminal">
 
-        <!-- Layar Utama Aplikasi (4 Tab Navigasi) -->
+        <!-- Layar Utama Aplikasi -->
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -45,9 +43,7 @@
         <service
             android:name=".FloatingService"
             android:enabled="true"
-            android:exported="false"
-            android:foregroundServiceType="specialUse"
-            tools:targetApi="34" />
+            android:exported="false" />
             
     </application>
 </manifest>
