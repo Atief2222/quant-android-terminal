@@ -139,7 +139,6 @@ class FloatingService : Service() {
                     if (isClick) {
                         toggleBottomSheet()
                     } else {
-                        // Fitur Magnetik (Auto-Snap ke tepi terdekat)
                         val middle = screenWidth / 2
                         bubbleParams.x = if (bubbleParams.x + (bubbleView?.width ?: 0) / 2 < middle) {
                             16
@@ -261,7 +260,7 @@ class FloatingService : Service() {
         val container = bottomSheetView?.findViewById<LinearLayout>(R.id.container_chat_messages)
         val tv = TextView(this).apply {
             this.text = text
-            textSize = 13spToPx()
+            this.textSize = 13f
             setTextColor(Color.WHITE)
             setPadding(24, 16, 24, 16)
         }
@@ -289,8 +288,6 @@ class FloatingService : Service() {
         scroll?.post { scroll.fullScroll(View.FOCUS_DOWN) }
         return tv
     }
-
-    private fun TextView.13spToPx(): Float = 13f
 
     override fun onDestroy() {
         super.onDestroy()
