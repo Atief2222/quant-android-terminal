@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background & Surface (Institutional Dark) -->
+    <color name="bg_dark">#0B0E14</color>
+    <color name="bg_card">#0F172A</color>
+    <color name="bg_card_elevated">#1E293B</color>
+    <color name="bg_floating_glass">#EE0C1322</color>
+    <color name="border_subtle">#334155</color>
+    <color name="border_active">#38BDF8</color>
+
+    <!-- Brand & Status Accents -->
+    <color name="brand_sky">#38BDF8</color>
+    <color name="brand_sky_dark">#0284C7</color>
+    <color name="bull_green">#10B981</color>
+    <color name="bear_red">#EF4444</color>
+    <color name="gold_amber">#F59E0B</color>
+    <color name="purple_accent">#A855F7</color>
+
+    <!-- Typography Text Colors -->
+    <color name="text_primary">#F8FAFC</color>
+    <color name="text_secondary">#94A3B8</color>
+    <color name="text_muted">#64748B</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+</resources>
