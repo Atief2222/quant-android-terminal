@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quant Terminal</string>
+    <string name="tab_terminal">Terminal</string>
+    <string name="tab_radar">Radar</string>
+    <string name="tab_control">Kontrol</string>
+    <string name="tab_settings">Setting</string>
+
+    <!-- Floating UI Labels -->
+    <string name="floating_title">QUANT AI MENTOR PRO</string>
+    <string name="floating_status_live">Live Data 360° Sync</string>
+    <string name="floating_btn_reset">Reset</string>
+    <string name="floating_chip_trend">📈 Tren &amp; Konfluensi</string>
+    <string name="floating_chip_snr">🎯 Validasi SNR</string>
+    <string name="floating_chip_macro">🌐 CVD &amp; Makro</string>
+    <string name="floating_input_hint">Tanyakan analisa setup pasar...</string>
+    <string name="floating_btn_send">KIRIM</string>
+</resources>
